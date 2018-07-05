@@ -31,11 +31,13 @@ Application Setup:
 	
 Assumtions before run the application:
 -------------------------------------
-Both App1 & App2  are in same network for this POC
-Both App1 database & App2 database are in same network for this POC
-Data at rest is in-progress (like account number etc.) is not encrypted for POC
+1. Both App1 & App2  are in same network for this POC
+2. Both App1 database & App2 database are in same network for this POC
+3. Data at rest is in-progress (like account number etc.) is not encrypted for POC
+4. Logging not added for POC
 
-Future implementations ->
+Future implementations:
+----------------------
 	HTTPS/TLS and OAuth Autentication for security
 	
 
