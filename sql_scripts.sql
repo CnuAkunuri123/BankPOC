@@ -1,3 +1,5 @@
+GRANT ALL PRIVILEGES ON *.* TO 'bankOfbanks'@'localhost' IDENTIFIED BY 'password';
+
 CREATE DATABASE  IF NOT EXISTS `app1_db`;
 USE `app1_db`;
 
