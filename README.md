@@ -25,6 +25,10 @@ Application Setup:
 	App1 -> target -> java -jar App1-0.0.1-SNAPSHOT.jar
 	App2 -> target -> java -jar App2-0.0.1-SNAPSHOT.jar
 	
+5. App1 and App2 both applicaitons are running using embedded tomcat
+	App1 -> tomcat port: 8090 ex:- http://localhost:8090/user/login
+	App2 -> tomcat port: 8070 ex:- http://localhost:8070/bank/getAccount
+	
 Assumtions before run the application:
 -------------------------------------
 Both App1 & App2  are in same network for this POC
